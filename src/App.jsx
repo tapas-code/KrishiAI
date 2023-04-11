@@ -1,10 +1,13 @@
 import React from 'react'
+import Home from './components/Home'
+import Navbar from './components/Navbar'
 
 const App = () => {
   return (
-    <div>
-      <h1>Krishi AI - An app for Farmers</h1>
-    </div>
+    <>
+      <Navbar />
+      <Home />
+    </>
   )
 }
 
